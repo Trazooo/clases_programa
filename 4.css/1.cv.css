@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(200, 201, 181);
+    color: darkgreen;
+    font-family:'Montserrat', sans-serif;
+}
+
+.important-text {
+    background-color: blueviolet;
+    color: aquamarine;
+    font: weight 700px;;
+}
+
+#title {
+    border: solid black
+
+
+}
+/*no-me-da-el-border-:(~~>*/
+
+#id .class p {
+    /*especificidad 111 por id 100 class 10 y p 1*/
+    border: solid;
+}
+
+.dark section {
+background-color: aliceblue;
+}
+
+.light-section-button {
+    background-color: aquamarine;
+}
+
+a {
+    border: solid rgb(126, 82, 17)
+}
+
+a {
+    border: dashed white 3px;
+}
+/*si tienen el mismo puntaje gana el de abajos*/
+a {
+    border-radius: green 16px
+    text-decoration: none;
+}
+
